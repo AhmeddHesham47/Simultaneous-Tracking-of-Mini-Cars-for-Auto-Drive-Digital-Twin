@@ -70,7 +70,7 @@ class AprilTagTracker:
             self.sock1.sendto(data.encode(), self.server_address1)
             
             # Data sent to ESP32
-            self.sock2.sendto(data1.encode(), self.server_address2)
+            self.sock2.sendto(data.encode(), self.server_address2)
             
             # Draw tag outline
             cv2.polylines(img, [corners.reshape((-1, 1, 2))], True, (255, 0, 0), 2)
