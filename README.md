@@ -1,7 +1,7 @@
 # Simultaneous-Tracking-of-Mini-Cars-for-Auto-Drive-Digital-Twin
-That is a description of each file for the project project:
+That is a description of each file for the project:
 
-1) " Color_Detection(test) " : script used to extract the HSV (Hue, Saturation, Value) color space from images to isolate specific colors to be used in " Color_Detection(main) ".
+1) " Color_Detection(test) " : Script used to extract the HSV (Hue, Saturation, Value) color space from images to isolate specific colors to be used in " Color_Detection(main) ".
 
 2) " Color_Detection(main) ": Main script for color and shape detction .
 
